@@ -33,7 +33,7 @@ export default {
       }
     });
 
-    if (isStrict) utils.throwError(path, $fields);
+    //if (isStrict) utils.throwError(path, $fields);
 
     return $fields;
   },
